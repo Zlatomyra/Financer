@@ -32,9 +32,4 @@ public class SimpleHardProcent extends AppCompatActivity {
         });
     }
 
-    private void hard_next() {
-        Intent intent = new Intent(this, HardProcent.class);
-        startActivity(intent);
-
-    }
 }

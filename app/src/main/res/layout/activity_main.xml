@@ -18,40 +18,15 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <Button
-        android:id="@+id/lizung"
-        android:text="Лізинг"
+        android:id="@+id/continuous interest"
+        android:text="Кредити/Депозити"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/credit_deposit"/>
+        app:layout_constraintTop_toTopOf="parent"/>
 
-    <Button
-        android:id="@+id/li"
-        android:text="Облігації"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/lizung"/>
 
-    <Button
-        android:id="@+id/l"
-        android:text="Іпотека"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/li"/>
-
-    <Button
-        android:id="@+id/an_credit"
-        android:text="Ануїтетний кредит"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/l"/>
 
 
 

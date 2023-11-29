@@ -9,12 +9,21 @@
     android:padding="16dp">
 
     <Button
+        android:id="@+id/previous"
+        android:text="Назад"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
         android:id="@+id/simple_procent"
         android:text="Прості відсотки"
         android:layout_width="0dp"
         android:layout_height="100dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@+id/previous"/>
 
     <Button
         android:id="@+id/hard_procent"
@@ -22,6 +31,6 @@
         android:layout_width="0dp"
         android:layout_height="100dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/previous" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
